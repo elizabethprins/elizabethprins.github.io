@@ -55,6 +55,7 @@ $(document).ready(function() {
 
   $(".button3").click(function() {
     $("img").show();
+    document.getElementById('reset').play();
     $.when($("#slider").animate({
       "bottom": "-=100%",
     }, 5000)).done(function() {
