@@ -1,0 +1,227 @@
+body {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+p {
+  margin: 2px;
+}
+
+div {
+  z-index: 1;
+  height:21px;
+  width:20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px;
+}
+
+img {
+  margin-left: -50px;
+  z-index: 2;
+  position:absolute;
+}
+
+button {
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  background-color: yellow;
+  border-color: blue;
+  border-radius: 2px;
+  color: blue;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+button:hover {
+  -webkit-animation:flashing 0.3s infinite;
+  -ms-animation:flashing 0.3s infinite;
+  -o-animation:flashing 0.3s infinite;
+  animation:flashing 0.3s infinite;
+}
+@-webkit-keyframes flashing {
+0% {background-color: yellow;}
+10% {background-color: orange; border-color: red; border-width: thick;}
+}
+@-ms-keyframes flashing {
+0% {background-color: yellow;}
+50% {background-color: orange; border-color: red; border-width: thick;}
+}
+@-o-keyframes flashing {
+0% {background-color: yellow;}
+50% {background-color: orange; border-color: red; border-width: thick;}
+}
+@keyframes flashing {
+0% {background-color: yellow;}
+50% {background-color: orange; border-color: red; border-width: thick;}
+}
+
+.button1 {
+  position: absolute;
+  right: 100px;
+}
+.button2 {
+  position: absolute;
+  left: 10px;
+}
+.button3 {
+  background-color: #E2E2E2;
+  border-color: black;
+  color: black;
+  border-width: thin;
+  position: absolute;
+  right: 100px;
+}
+
+#white1 {
+  width: 160px;
+}
+
+#white2 {
+  width: 120px;
+}
+
+#white3 {
+  width: 80px;
+}
+
+#white4 {
+  width: 60px;
+}
+
+#white5 {
+  width: 100px;
+}
+
+#white6 {
+  width: 40px;
+}
+
+.lightergrey {
+  background-color:#E2E2E2;
+}
+
+.lightgrey {
+  background-color:#A7A8A3;
+}
+
+.grey {
+  background-color:#8C8D88;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.coldgrey {
+  background-color: #737377;
+}
+
+.lightblack {
+  background-color: #181C1B;
+}
+
+.black {
+  background-color: #040404;
+}
+
+.brown {
+  background-color: #391D16;
+}
+
+.eyebrown {
+  background-color: #522110;
+}
+
+.greengrey {
+  background-color: #535642;
+}
+
+.winkbrown {
+  background-color: #6E3A1B;
+}
+
+.temple {
+  background-color: #AA5427;
+}
+
+.cheek {
+  background-color: #C15A18;
+}
+
+.hairline {
+  background-color: #E2702E;
+}
+
+.red {
+  background-color: #701E11;
+}
+
+.taupe {
+  background-color: #8D7153;
+}
+
+.mustard {
+  background-color: #C98033;
+}
+
+.forehead {
+  background-color: #E38D54;
+}
+
+.nosebridge {
+  background-color: #C17231;
+}
+
+.steelgrey {
+  background-color: #35383F;
+}
+
+.pink {
+  background-color: #EC9E6D;
+}
+
+.sand {
+  background-color: #AC6B36;
+}
+
+.brow {
+  background-color: #BF8A68;
+}
+
+.softwink {
+  background-color: #905539;
+}
+
+.eartop {
+  background-color: #E4C3A9;
+}
+
+.jaw {
+  background-color: #91481B;
+}
+
+.ear {
+  background-color: #C28C67;
+}
+
+.bright {
+  background-color: #FDF7E2;
+}
+
+.neck {
+  background-color: #C4AB91;
+}
+
+.wine {
+  background-color: #AD5443;
+}
+
+.corner {
+  background-color: #535548;
+}
+
+.tooth {
+  background-color: #DFC7AD;
+}
